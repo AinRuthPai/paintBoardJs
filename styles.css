@@ -26,7 +26,7 @@ body {
 }
 
 .controls_buttons {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .controls_buttons button {
@@ -34,6 +34,7 @@ body {
   cursor: pointer;
   background-color: white;
   padding: 6px 0px;
+  margin: 0px 6px;
   width: 80px;
   text-align: center;
   text-transform: uppercase;

@@ -4,6 +4,7 @@ const range = document.querySelector("#jsRange");
 const mode = document.querySelector("#jsMode");
 const ctx = canvas.getContext("2d");
 const saveBtn = document.querySelector("#jsSave");
+const erase = document.querySelector("#jsErase");
 
 const INITIAL_COLOR = "#2c2c2c";
 
@@ -106,3 +107,5 @@ if (mode) {
 if (saveBtn) {
   saveBtn.addEventListener("click", handleSaveClick);
 }
+
+erase.addEventListener("click", () => (ctx.strokeStyle = "white"));
